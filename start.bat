@@ -3,7 +3,7 @@ set SCRIPT_NAME=main.pyw
 
 :: 1. Cicha instalacja bibliotek (tylko jeśli ich brakuje)
 echo Sprawdzanie bibliotek...
-python -m pip install pystray Pillow --quiet
+python -m pip install -r requirements.txt --quiet
 
 :: 2. Uruchomienie skryptu w trybie "Windowless" (bez okna konsoli)
 :: start "" pozwala na natychmiastowe zamkniecie tego okna .bat
